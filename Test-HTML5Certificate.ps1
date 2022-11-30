@@ -8,7 +8,7 @@ param (
     [Parameter(Mandatory = $true,
     ParameterSetName = 'CreateCertificates',
     HelpMessage = 'Create certificates for servers')]
-    [Switch]$GenerateCertificates
+    [Switch]$CreateCertificates
     ,
     [Parameter(Mandatory = $true,
         ParameterSetName = 'InstallCertificate',
