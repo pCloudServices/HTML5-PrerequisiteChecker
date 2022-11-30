@@ -16,7 +16,7 @@ param (
     [Switch]$InstallCertificate
     ,
 
-    [Parameter(Mandatory = $true,
+    [Parameter(Mandatory = $false,
         ParameterSetName = 'TestCertificate',
         HelpMessage = 'A comma-separated list of names of the connector servers for which to create certificates')]
     [Switch]$SetCertificate
