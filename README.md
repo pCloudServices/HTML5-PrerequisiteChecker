@@ -20,6 +20,7 @@ Example syntax:
 
 CreateCertificates mode will:
 - Create a self-signed signing certificate if it does not already exist
+  - This certificate must be provided to your CyberArk representative
 - Create a certificate for each server specified in -ConnectorServers
 
 Example syntax:  
